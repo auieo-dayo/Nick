@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ニックネームがつけられます",
+        "name": "Nick",
+        "uuid": "da69f790-ddc6-406f-a243-6f6fefaf12ce",
+        "version": [1, 2, 0],
+        "min_engine_version": [1, 21, 100]
+    },
+    "modules": [
+        {
+            "description": "ニックネームがつけられます",
+            "type": "resources",
+            "uuid": "bbaaf880-953c-4293-bca7-53a10edaf282",
+            "version": [1, 2, 0]
+        }
+    ],
+     "dependencies": [
+    {
+     "uuid":"68194f0c-e5b6-49a3-b3cd-724e93890e86",
+      "version":[1,2,0]
+    }
+ ],
+ "metadata": {
+    "authors": ["auieo-dayo"],
+    "license": "MIT"
+ }
+}

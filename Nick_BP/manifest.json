@@ -1,0 +1,47 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ニックネームを付けれます。",
+        "name": "Nick",
+        "uuid": "68194f0c-e5b6-49a3-b3cd-724e93890e86",
+        "version": [1, 2, 0],
+        "min_engine_version": [1, 21, 100],
+        "capabilities": [
+            "script_eval",
+            "world_dynamic_properties",
+            "experimental_custom_ui",
+            "command"
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "01fb3096-b377-4b2e-86c4-e0b29ad88e88",
+            "version": [1, 2, 0]
+        },
+        {
+            "type": "script",
+            "uuid": "799f5b5a-8b7f-477d-8325-29ef7d1587a4",
+            "version": [1, 2, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.3.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.1.0-beta"
+        },
+        {
+            "uuid":"da69f790-ddc6-406f-a243-6f6fefaf12ce",
+            "version":[1,2,0]
+        }
+    ],
+    "metadata": {
+        "authors": ["auieo-dayo"],
+        "license": "MIT"
+    }
+}
