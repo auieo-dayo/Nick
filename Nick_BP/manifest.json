@@ -29,11 +29,11 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "2.3.0-beta"
+            "version": "beta"
         },
         {
             "module_name": "@minecraft/server-ui",
-            "version": "2.1.0-beta"
+            "version": "beta"
         },
         {
             "uuid":"da69f790-ddc6-406f-a243-6f6fefaf12ce",
@@ -44,4 +44,5 @@
         "authors": ["auieo-dayo"],
         "license": "MIT"
     }
+
 }
